@@ -4,7 +4,7 @@
 > A complete T-SQL/Power BI data model and analytics platform built on 22.5 million NHS inpatient episodes across 590 provider organisations.
 
 ---
-
+Report Design Live: https://gatemediang.github.io/nhs-iinpatients-analystics/
 ## 📋 Table of Contents
 
 1. [Project Overview](#project-overview)
