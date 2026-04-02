@@ -11,14 +11,15 @@ Report Design Live: https://gatemediang.github.io/nhs-iinpatients-analystics/
 2. [The Problem This Analysis Solves](#the-problem-this-analysis-solves)
 3. [Data Source](#data-source)
 4. [Data Dictionary](#data-dictionary)
-5. [Power BI Model Architecture](#power-bi-model-architecture)
-6. [DAX Measures Reference](#dax-measures-reference)
-7. [Calculated Columns Reference](#calculated-columns-reference)
-8. [Key Insights & Findings](#key-insights--findings)
-9. [Report Design Guide](#report-design-guide)
-10. [Data Quality Notes](#data-quality-notes)
-11. [How to Use This Model](#how-to-use-this-model)
-12. [References](#references)
+5. [T-SQL Reference](#t-sql-reference)
+6. [Power BI Model Architecture](#power-bi-model-architecture)
+7. [DAX Measures Reference](#dax-measures-reference)
+8. [Calculated Columns Reference](#calculated-columns-reference)
+9. [Key Insights & Findings](#key-insights--findings)
+10. [Report Design Guide](#report-design-guide)
+11. [Data Quality Notes](#data-quality-notes)
+12. [How to Use This Model](#how-to-use-this-model)
+13. [References](#references)
 
 ---
 
@@ -103,6 +104,12 @@ England's day case rate is 38.4% (8,661,338 of 22,555,615 FCEs). The NHS target 
 | `hosp-epis-stat-admi-oth-2024-25.csv` | Other breakdowns (IMD, Ethnicity, Specialty) |
 | `hosp-epis-stat-admi-hosp-provider-2024-25-tab.csv` | Hospital provider summary table |
 | `hosp-epis-stat-admi-diag-2024-25.csv` | Diagnosis (ICD-10) breakdown |
+
+---
+
+## T-SQL Reference
+
+The full SQL implementation and query patterns are documented in [T-SQL.md](T-SQL.md). It includes the production-ready T-SQL blocks used to reproduce and extend the Power BI measures in this project.
 
 ---
 
